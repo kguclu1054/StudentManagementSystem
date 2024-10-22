@@ -26,15 +26,15 @@ public class Main {
         
         System.out.println("\ninstanceof Kullanımı:");
         if (student instanceof UndergraduateStudent) {
-            System.out.println(student.name + " is an UndergraduateStudent.");
+            System.out.println(student.getName() + " is an UndergraduateStudent.");
         }
 
         if (masterStudent instanceof GraduateStudent) {
-            System.out.println(masterStudent.name + " is a GraduateStudent.");
+            System.out.println(masterStudent.getName() + " is a GraduateStudent.");
         }
 
         if (phdStudent instanceof PhdStudent) {
-            System.out.println(phdStudent.name + " is a PhdStudent.");
+            System.out.println(phdStudent.getName() + " is a PhdStudent.");
         }
 	}
 
